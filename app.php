@@ -10,6 +10,6 @@ $app->get('/', function(){
 });
 
 include __DIR__.'/modules/tasks.php';
-//include __DIR__.'/modules/users.php';
+include __DIR__.'/modules/users.php';
 
 $app->run();
