@@ -4,7 +4,7 @@
 php composer.phar install
 
 ### Migração banco de dados
-vendor/bin/phinx migrate
+vendor/bin/phinx migrate <br />
 vendor/bin/phinx seed:run
 
 ### Iniciar o servidor php
