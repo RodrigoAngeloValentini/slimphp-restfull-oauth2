@@ -11,11 +11,11 @@ vendor/bin/phinx seed:run
 php -S localhost:8080 -t public/
 
 ### Testar geração do token (Postman)
-POST em http://localhost:8080/api/v1/users/oauth-full com os seguintes dados:
-username: rodrigo@teste.com.br
-password: 123456
-client_id: cliente
-client_secret: segredo
+POST em http://localhost:8080/api/v1/users/oauth-full com os seguintes dados: <br />
+username: rodrigo@teste.com.br <br />
+password: 123456 <br />
+client_id: cliente <br />
+client_secret: segredo <br />
 
 
 
